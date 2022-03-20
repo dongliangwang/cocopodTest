@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		9273836027E766E3004BDA9C /* cocopodFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocopodFile.h; sourceTree = "<group>"; };
 		9273836127E766E3004BDA9C /* cocopodFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocopodFile.m; sourceTree = "<group>"; };
-		9273836427E7675A004BDA9C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		92A6F1EB2727904C0018B12A /* ExerciseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A6F1EE2727904D0018B12A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92A6F1EF2727904D0018B12A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,7 +97,6 @@
 		9273836327E76734004BDA9C /* cocopodHeader */ = {
 			isa = PBXGroup;
 			children = (
-				9273836427E7675A004BDA9C /* Header.h */,
 			);
 			path = cocopodHeader;
 			sourceTree = "<group>";

@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   s.source       = { :git => "your_privatePodGit_address", :tag => "#{s.version}
   
   s.source_files  = 'ExerciseDemo/CocopodFile/**/*'
-  s.public_header_files = 'ExerciseDemo/CocopodFile/ExerciseDemo/CocopodFile/*.h'
+  s.public_header_files = 'ExerciseDemo/CocopodFile/cocopodHeader/*.h'
   s.requires_arc = true
   s.frameworks = 'UIKit','Foundation'
   
