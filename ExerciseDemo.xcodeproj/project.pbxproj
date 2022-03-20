@@ -87,18 +87,10 @@
 		9273835F27E766BB004BDA9C /* CocopodFile */ = {
 			isa = PBXGroup;
 			children = (
-				9273836327E76734004BDA9C /* cocopodHeader */,
 				9273836027E766E3004BDA9C /* cocopodFile.h */,
 				9273836127E766E3004BDA9C /* cocopodFile.m */,
 			);
 			path = CocopodFile;
-			sourceTree = "<group>";
-		};
-		9273836327E76734004BDA9C /* cocopodHeader */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = cocopodHeader;
 			sourceTree = "<group>";
 		};
 		92A6F1E22727904C0018B12A = {
