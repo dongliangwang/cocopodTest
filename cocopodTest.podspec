@@ -7,11 +7,12 @@ Pod::Spec.new do |spec|
   spec.summary      = "A short description of cocopodTest."
 
   spec.description  = <<-DESC
+  一个强大的库
                    DESC
 
   spec.homepage     = "http://EXAMPLE/cocopodTest"
 
-  spec.license      = "MIT (example)"
+        spec.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.author             = { "wangdongliang03" => "wangdongliang03@kuaishou.com" }
   spec.authors            = { "wangdongliang03" => "wangdongliang03@kuaishou.com" }
@@ -20,9 +21,9 @@ Pod::Spec.new do |spec|
   
 
   spec.platform     = :ios
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "9.0"
 
-  spec.ios.deployment_target = "580"
+  spec.ios.deployment_target = "9.0"
 
   spec.source       = { :git => "https://github.com/dongliangwang/cocopodTest.git", :tag => "#{spec.version}" }
 
