@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9273836227E766E3004BDA9C /* cocopodFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9273836127E766E3004BDA9C /* cocopodFile.m */; };
 		92A6F1F02727904D0018B12A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A6F1EF2727904D0018B12A /* AppDelegate.m */; };
 		92A6F1F32727904D0018B12A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A6F1F22727904D0018B12A /* SceneDelegate.m */; };
 		92A6F1F62727904D0018B12A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A6F1F52727904D0018B12A /* ViewController.m */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9273836027E766E3004BDA9C /* cocopodFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocopodFile.h; sourceTree = "<group>"; };
+		9273836127E766E3004BDA9C /* cocopodFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocopodFile.m; sourceTree = "<group>"; };
+		9273836427E7675A004BDA9C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		92A6F1EB2727904C0018B12A /* ExerciseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A6F1EE2727904D0018B12A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92A6F1EF2727904D0018B12A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +85,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9273835F27E766BB004BDA9C /* CocopodFile */ = {
+			isa = PBXGroup;
+			children = (
+				9273836327E76734004BDA9C /* cocopodHeader */,
+				9273836027E766E3004BDA9C /* cocopodFile.h */,
+				9273836127E766E3004BDA9C /* cocopodFile.m */,
+			);
+			path = CocopodFile;
+			sourceTree = "<group>";
+		};
+		9273836327E76734004BDA9C /* cocopodHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9273836427E7675A004BDA9C /* Header.h */,
+			);
+			path = cocopodHeader;
+			sourceTree = "<group>";
+		};
 		92A6F1E22727904C0018B12A = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +126,7 @@
 		92A6F1ED2727904C0018B12A /* ExerciseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9273835F27E766BB004BDA9C /* CocopodFile */,
 				92A6F1EE2727904D0018B12A /* AppDelegate.h */,
 				92A6F1EF2727904D0018B12A /* AppDelegate.m */,
 				92A6F1F12727904D0018B12A /* SceneDelegate.h */,
@@ -268,6 +291,7 @@
 			files = (
 				92A6F1F62727904D0018B12A /* ViewController.m in Sources */,
 				92A6F1F02727904D0018B12A /* AppDelegate.m in Sources */,
+				9273836227E766E3004BDA9C /* cocopodFile.m in Sources */,
 				92A6F2012727904F0018B12A /* main.m in Sources */,
 				92A6F1F32727904D0018B12A /* SceneDelegate.m in Sources */,
 			);
